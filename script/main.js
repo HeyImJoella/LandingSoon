@@ -20,14 +20,14 @@ function onSuccess(response) {
 	var weatherDOM = document.getElementById('celsius'); 
 	windDOM.innerHTML = wind + " km/uur";
 	weatherDOM.innerHTML = celsius + "&#176;C";
-	if (wind >= 8) {
-	document.getElementById("klaar").innerHTML = "De wind staat te hard";
+	if (wind >= 8 ) {
+	document.getElementById("klaar").innerHTML = "De wind staat te hard!";
 	}
 	else {
 	document.getElementById("klaar").innerHTML = "Klaar voor landen!";
 	}
-	if (celsius <= 0){
-	document.getElementById("klaar").innerHTML = "Het is te koud";
+	if (celsius <= 10 ){
+	document.getElementById("klaar").innerHTML = "Het is te koud!";
 	}
 	else {
 	document.getElementById("klaar").innerHTML = "Klaar voor landen!";

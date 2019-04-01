@@ -125,47 +125,43 @@ input[type=button] {
 
 @media only screen and (min-width: 600px) {
 	body {font-size: 3vw;}
+	#zoekbar{margin-top:10%;}
+	.container{padding-left: 10%; padding-right: 10%;}
+	#check, #graden, #wind {font-size: 2.5vw; border-radius: 20px 20px 20px 20px;}
 	p{font-size:2.5vw;}
 	form {padding: 1% 1% 1% 7%;}
 	input[type=text] {font-size: 4vw;}
 	input[type=button] {font-size: 3.5vw; margin-right: 20%; margin-top: 0%;padding-top: 5px;}
 	::placeholder{fontsize:4vw;}
-
-
-	#zoekbar{margin-top:10%;}
-	.container{padding-left: 10%; padding-right: 10%;}
-	#check, #graden, #wind {font-size: 2.5vw; border-radius: 20px 20px 20px 20px;}
-	#logo {width:10%;}
 	#klaar, #celsius, #windkracht {font-size: 3vw;padding-top: 27px;}
 }
 
 
 @media only screen and (min-width: 960px) {
 	body {font-size: 2vw;}
+	#zoekbar{padding: 2% 40% 2% 30%; margin-top:1%;}
+	.container{padding-left: 20%; padding-right: 20%;}
+	#check, #graden, #wind {font-size: 1.5vw; border-radius: 30px 30px 30px 30px;}
 	form {padding: 2% 30% 2% 30%;}
 	input[type=text] {font-size: 2vw; margin-top:2%;}
 	input[type=button] {font-size: 2vw; margin-right: 0%; margin-top: 2.9%;}
 	::placeholder{font-size:1.2vw;}
 
-	#zoekbar{padding: 2% 40% 2% 30%; margin-top:1%;}
-	.container{padding-left: 20%; padding-right: 20%;}
-	#check, #graden, #wind {font-size: 1.5vw; border-radius: 30px 30px 30px 30px;}
-	#logo {width: 8%;}
+	
 	#klaar, #celsius, #windkracht {font-size: 2vw; padding-top: 14px;}
 }
 
 
 @media only screen and (min-width: 1281px) {
 	body {font-size: 1vw;}
+	#zoekbar{padding: 2% 30% 2% 30%; margin-top:2%;}
+	.container{padding-left: 25%; padding-right: 25%;}
+	#check, #graden, #wind {font-size: 1vw; border-radius: 20px 20px 20px 20px;padding-top: 10px;}
 	form {padding: 2% 40% 2% 40%;}
 	p {font-size:1vw;}; 
 	input[type=text] {font-size: 1.3vw; margin-top:2%; margin-top: 3.5%;}
 	input[type=button] {font-size: 1.3vw;}
 	::placeholder{font-size:1.2vw;}
-
-	#zoekbar{padding: 2% 30% 2% 30%; margin-top:2%;}
-	.container{padding-left: 25%; padding-right: 25%;}
-	#check, #graden, #wind {font-size: 1vw; border-radius: 20px 20px 20px 20px;padding-top: 10px;}
 	#celsius, #windkracht {font-size: 1.5vw; padding-top: 21px;}
 	#klaar {font-size: 1.5vw; padding-top: 14px;}
 }

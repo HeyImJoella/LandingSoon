@@ -166,7 +166,8 @@ input[type=button] {
 	#zoekbar{padding: 2% 30% 2% 30%; margin-top:2%;}
 	.container{padding-left: 25%; padding-right: 25%;}
 	#check, #graden, #wind {font-size: 1vw; border-radius: 20px 20px 20px 20px;padding-top: 10px;}
-	#klaar, #celsius, #windkracht {font-size: 1.5vw; padding-top: 21px;}
+	#celsius, #windkracht {font-size: 1.5vw; padding-top: 21px;}
+	#klaar {font-size: 1.5vw; padding-top: 14px;}
 }
 
 
